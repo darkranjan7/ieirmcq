@@ -1,0 +1,2567 @@
+[
+  {
+    "number": 1,
+    "original_number": "i",
+    "question": "What is the primary purpose of an Information Retrieval System (IRS)?",
+    "options": {
+      "a": "To retrieve all documents from a database",
+      "b": "To retrieve relevant documents based on a query",
+      "c": "To delete irrelevant documents",
+      "d": "To store structured data"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "To retrieve relevant documents based on a query"
+    }
+  },
+  {
+    "number": 2,
+    "original_number": "ii",
+    "question": "Which of the following components is essential in an inverted index?",
+    "options": {
+      "a": "Query processor",
+      "b": "Term dictionary and postings list",
+      "c": "URL resolver",
+      "d": "PageRank algorithm"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Term dictionary and postings list"
+    }
+  },
+  {
+    "number": 3,
+    "original_number": "iii",
+    "question": "In Boolean retrieval, what is the result of a query using the AND operator?",
+    "options": {
+      "a": "All documents containing any of the query terms",
+      "b": "Only documents containing both query terms",
+      "c": "Only documents containing one of the query terms",
+      "d": "Documents excluding the query terms"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Only documents containing both query terms"
+    }
+  },
+  {
+    "number": 4,
+    "original_number": "iv",
+    "question": "What is the primary advantage of index compression in IR systems?",
+    "options": {
+      "a": "Reducing storage space and improving retrieval speed",
+      "b": "Improving query performance but increasing storage",
+      "c": "Deleting unnecessary documents",
+      "d": "Removing stop words from queries"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Reducing storage space and improving retrieval speed"
+    }
+  },
+  {
+    "number": 5,
+    "original_number": "v",
+    "question": "Which component helps in handling spelling errors in queries?",
+    "options": {
+      "a": "Query expansion",
+      "b": "Tolerant retrieval",
+      "c": "Document indexing",
+      "d": "Term frequency normalization"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Tolerant retrieval"
+    }
+  },
+  {
+    "number": 6,
+    "original_number": "vi",
+    "question": "What is an example of a stop word?",
+    "options": {
+      "a": "Information",
+      "b": "The",
+      "c": "Retrieval",
+      "d": "Index"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "The"
+    }
+  },
+  {
+    "number": 7,
+    "original_number": "vii",
+    "question": "What is the main purpose of a text retrieval system?",
+    "options": {
+      "a": "Image classification",
+      "b": "Storing large images",
+      "c": "Retrieving relevant text documents",
+      "d": "None of the these"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Retrieving relevant text documents"
+    }
+  },
+  {
+    "number": 8,
+    "original_number": "viii",
+    "question": "Which component is essential for constructing an inverted index?",
+    "options": {
+      "a": "Term vocabulary",
+      "b": "Postings list",
+      "c": "Both a and b",
+      "d": "None of the these"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Both a and b"
+    }
+  },
+  {
+    "number": 9,
+    "original_number": "ix",
+    "question": "Boolean retrieval models rely on which type of logic?",
+    "options": {
+      "a": "Propositional logic",
+      "b": "Predicate logic",
+      "c": "Fuzzy logic",
+      "d": "None of the these"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Propositional logic"
+    }
+  },
+  {
+    "number": 10,
+    "original_number": "x",
+    "question": "In text retrieval, what does \"tolerant retrieval\" refer to?",
+    "options": {
+      "a": "Handling spelling variations and errors",
+      "b": "Ignoring stop words",
+      "c": "Storing data eﬃciently",
+      "d": "Using boolean operators"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Handling spelling variations and errors"
+    }
+  },
+  {
+    "number": 11,
+    "original_number": "xi",
+    "question": "Which of the following is NOT a step in index construction?",
+    "options": {
+      "a": "Tokenization",
+      "b": "Stemming",
+      "c": "Storing images",
+      "d": "Posting list generation"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Storing images"
+    }
+  },
+  {
+    "number": 12,
+    "original_number": "xii",
+    "question": "Which data structure is commonly used in dictionaries for text retrieval?",
+    "options": {
+      "a": "B-Trees",
+      "b": "Hash tables",
+      "c": "Trie",
+      "d": "All of the these"
+    },
+    "correct_answer": {
+      "option": "d",
+      "text": "All of the these"
+    }
+  },
+  {
+    "number": 13,
+    "original_number": "xiii",
+    "question": "In the Vector Space Model, what does TF stand for?",
+    "options": {
+      "a": "Term Finding",
+      "b": "Term Frequency",
+      "c": "Text Formation",
+      "d": "Term Formatting"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Term Frequency"
+    }
+  },
+  {
+    "number": 14,
+    "original_number": "xiv",
+    "question": "TF-IDF is used for",
+    "options": {
+      "a": "Compressing data",
+      "b": "Indexing images",
+      "c": "Document ranking",
+      "d": "Boolean retrieval"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Document ranking"
+    }
+  },
+  {
+    "number": 15,
+    "original_number": "xv",
+    "question": "Which retrieval method relies purely on matching keywords in documents?",
+    "options": {
+      "a": "Boolean Retrieval",
+      "b": "Vector Space Model",
+      "c": "Probabilistic Retrieval Model",
+      "d": "Latent Semantic Indexing"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Boolean Retrieval"
+    }
+  },
+  {
+    "number": 16,
+    "original_number": "xvi",
+    "question": "The postings list in an IR system contains",
+    "options": {
+      "a": "The list of documents in the collection",
+      "b": "The list of words in a dictionary",
+      "c": "The list of documents where a term appears",
+      "d": "The metadata of documents"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "The list of documents where a term appears"
+    }
+  },
+  {
+    "number": 17,
+    "original_number": "xvii",
+    "question": "What is a term vocabulary in text retrieval?",
+    "options": {
+      "a": "A list of all possible words in a document collection",
+      "b": "A collection of user queries",
+      "c": "A predefined set of keywords used for indexing",
+      "d": "A list of web pages"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "A list of all possible words in a document collection"
+    }
+  },
+  {
+    "number": 18,
+    "original_number": "xviii",
+    "question": "Which of the following best describes an Information Retrieval (IR) system?",
+    "options": {
+      "a": "A system that extracts structured data from a database",
+      "b": "A system that retrieves relevant documents based on user queries",
+      "c": "A system that translates natural language to machine code",
+      "d": "A system that compresses multimedia files"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "A system that retrieves relevant documents based on user queries"
+    }
+  },
+  {
+    "number": 19,
+    "original_number": "xix",
+    "question": "What is stemming in text preprocessing?",
+    "options": {
+      "a": "Converting words to their root form",
+      "b": "Removing stopwords",
+      "c": "Finding synonyms of words",
+      "d": "Replacing words with their antonyms"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Converting words to their root form"
+    }
+  },
+  {
+    "number": 20,
+    "original_number": "xx",
+    "question": "Which evaluation metric measures the fraction of retrieved documents that are relevant?",
+    "options": {
+      "a": "Recall",
+      "b": "Precision",
+      "c": "F1-Score",
+      "d": "Mean Average Precision (MAP)"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Precision"
+    }
+  },
+  {
+    "number": 21,
+    "original_number": "xxi",
+    "question": "Which of the following is an example of preprocessing in IR?",
+    "options": {
+      "a": "Stop-word removal",
+      "b": "TF-IDF weighting",
+      "c": "Query execution",
+      "d": "Index compression"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Stop-word removal"
+    }
+  },
+  {
+    "number": 22,
+    "original_number": "xxii",
+    "question": "Which measure combines precision and recall into a single score?",
+    "options": {
+      "a": "TF-IDF",
+      "b": "F1-Score",
+      "c": "Jaccard Index",
+      "d": "Mean Reciprocal Rank"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "F1-Score"
+    }
+  },
+  {
+    "number": 23,
+    "original_number": "xxiii",
+    "question": "What is a document ranking function used for?",
+    "options": {
+      "a": "Sorting query terms alphabetically",
+      "b": "Determining the order of relevance of retrieved documents",
+      "c": "Counting the number of documents in a database",
+      "d": "Reducing the number of indexed terms"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Determining the order of relevance of retrieved documents"
+    }
+  },
+  {
+    "number": 24,
+    "original_number": "xxiv",
+    "question": "What is the main advantage of an inverted index?",
+    "options": {
+      "a": "Faster search and retrieval",
+      "b": "Reduced document storage",
+      "c": "Better document visualization",
+      "d": "Improved user interface"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Faster search and retrieval"
+    }
+  },
+  {
+    "number": 25,
+    "original_number": "xxv",
+    "question": "What is the main goal of query expansion in Information Retrieval?",
+    "options": {
+      "a": "Reduce the number of retrieved documents",
+      "b": "Improve search accuracy by adding related terms",
+      "c": "Remove stopwords from queries",
+      "d": "Compress the index size"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Improve search accuracy by adding related terms"
+    }
+  },
+  {
+    "number": 26,
+    "original_number": "xxvi",
+    "question": "Which of the following is NOT a method of query expansion?",
+    "options": {
+      "a": "Synonym-based expansion",
+      "b": "Relevance feedback",
+      "c": "Stemming",
+      "d": "Thesaurus-based expansion"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Stemming"
+    }
+  },
+  {
+    "number": 27,
+    "original_number": "xxvii",
+    "question": "What is Relevance Feedback (RF) in IR?",
+    "options": {
+      "a": "A technique that automatically reformulates a query based on user feedback",
+      "b": "A method for detecting spam in search results",
+      "c": "A way to store previous queries for faster retrieval",
+      "d": "A process of ranking search results based on popularity"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "A technique that automatically reformulates a query based on user feedback"
+    }
+  },
+  {
+    "number": 28,
+    "original_number": "xxviii",
+    "question": "In Relevance Feedback (RF), how does the system refine the search query?",
+    "options": {
+      "a": "By manually adding new documents",
+      "b": "By using user-selected relevant documents to modify the query",
+      "c": "By deleting irrelevant documents",
+      "d": "By reducing the search scope"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "By using user-selected relevant documents to modify the query"
+    }
+  },
+  {
+    "number": 29,
+    "original_number": "xxix",
+    "question": "Which type of relevance feedback does NOT require user interaction?",
+    "options": {
+      "a": "Explicit feedback",
+      "b": "Implicit feedback",
+      "c": "Pseudo relevance feedback",
+      "d": "Manual feedback"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Pseudo relevance feedback"
+    }
+  },
+  {
+    "number": 30,
+    "original_number": "xxx",
+    "question": "Which query expansion technique relies on pre-defined word relationships?",
+    "options": {
+      "a": "Relevance feedback",
+      "b": "Ontology-based expansion",
+      "c": "Term frequency weighting",
+      "d": "Document clustering"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Ontology-based expansion"
+    }
+  },
+  {
+    "number": 31,
+    "original_number": "xxxi",
+    "question": "What is Pseudo Relevance Feedback (PRF)?",
+    "options": {
+      "a": "A feedback system requiring explicit user input",
+      "b": "A method that assumes the top retrieved results are relevant and modifies the query accordingly",
+      "c": "A supervised learning technique for classification",
+      "d": "A way to detect duplicate documents in a dataset"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "A method that assumes the top retrieved results are relevant and modifies the query accordingly"
+    }
+  },
+  {
+    "number": 32,
+    "original_number": "xxxii",
+    "question": "Which of the following best describes query reformulation?",
+    "options": {
+      "a": "The process of removing stopwords from queries",
+      "b": "The restructuring of a query to improve retrieval results",
+      "c": "The technique of reducing index size",
+      "d": "A form of query encryption"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "The restructuring of a query to improve retrieval results"
+    }
+  },
+  {
+    "number": 33,
+    "original_number": "xxxiii",
+    "question": "Which method of query expansion is best suited for domain-specific search engines?",
+    "options": {
+      "a": "Thesaurus-based expansion",
+      "b": "Random keyword insertion",
+      "c": "Stopword removal",
+      "d": "Manual query modification"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Thesaurus-based expansion"
+    }
+  },
+  {
+    "number": 34,
+    "original_number": "xxxiv",
+    "question": "What is the primary disadvantage of using relevance feedback in search queries?",
+    "options": {
+      "a": "Increased computational cost",
+      "b": "Decreased search accuracy",
+      "c": "Reduction in retrieved documents",
+      "d": "Loss of index data"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Increased computational cost"
+    }
+  },
+  {
+    "number": 35,
+    "original_number": "xxxv",
+    "question": "What is the diﬀerence between explicit and implicit feedback?",
+    "options": {
+      "a": "Explicit feedback requires user interaction, while implicit feedback is collected automatically",
+      "b": "Implicit feedback requires user input, while explicit feedback does not",
+      "c": "Explicit feedback is less accurate than implicit feedback",
+      "d": "Implicit feedback is only used in Boolean retrieval models"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Explicit feedback requires user interaction, while implicit feedback is collected automatically"
+    }
+  },
+  {
+    "number": 36,
+    "original_number": "xxxvi",
+    "question": "Which of the following techniques improves query eﬀectiveness by adding semantically related words?",
+    "options": {
+      "a": "Stopword removal",
+      "b": "Query expansion",
+      "c": "Document filtering",
+      "d": "Index compression"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Query expansion"
+    }
+  },
+  {
+    "number": 37,
+    "original_number": "xxxvii",
+    "question": "Which of the following is NOT a source of terms for query expansion?",
+    "options": {
+      "a": "User feedback",
+      "b": "Thesauri",
+      "c": "Term clustering",
+      "d": "Query length reduction"
+    },
+    "correct_answer": {
+      "option": "d",
+      "text": "Query length reduction"
+    }
+  },
+  {
+    "number": 38,
+    "original_number": "xxxviii",
+    "question": "What is a major challenge of automatic query expansion?",
+    "options": {
+      "a": "The increase in processing time",
+      "b": "The decrease in document collection size",
+      "c": "The reduction in user interaction",
+      "d": "The elimination of term frequency analysis"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "The increase in processing time"
+    }
+  },
+  {
+    "number": 39,
+    "original_number": "xxxix",
+    "question": "Which of the following is an application of pseudo relevance feedback?",
+    "options": {
+      "a": "Personalizing search results",
+      "b": "Improving query eﬃciency by manually selecting documents",
+      "c": "Automating query reformulation without user input",
+      "d": "Reducing the size of document indexes"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Automating query reformulation without user input"
+    }
+  },
+  {
+    "number": 40,
+    "original_number": "xl",
+    "question": "Which type of query expansion uses statistical language models?",
+    "options": {
+      "a": "Boolean expansion",
+      "b": "Relevance feedback",
+      "c": "Probabilistic expansion",
+      "d": "Query filtering"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Probabilistic expansion"
+    }
+  },
+  {
+    "number": 41,
+    "original_number": "xli",
+    "question": "In pseudo relevance feedback, how are relevant documents chosen?",
+    "options": {
+      "a": "By user selection",
+      "b": "By assuming top-ranked documents are relevant",
+      "c": "By removing irrelevant terms",
+      "d": "By clustering user queries"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "By assuming top-ranked documents are relevant"
+    }
+  },
+  {
+    "number": 42,
+    "original_number": "xlii",
+    "question": "What is Rocchio's Algorithm used for in IR?",
+    "options": {
+      "a": "To calculate cosine similarity between documents",
+      "b": "To modify queries based on relevance feedback",
+      "c": "To classify documents into predefined categories",
+      "d": "To remove stopwords from a corpus"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "To modify queries based on relevance feedback"
+    }
+  },
+  {
+    "number": 43,
+    "original_number": "xliii",
+    "question": "What is a limitation of query expansion?",
+    "options": {
+      "a": "It can introduce unrelated terms, reducing precision",
+      "b": "It always requires user input",
+      "c": "It eliminates stopwords automatically",
+      "d": "It only works for small datasets"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "It can introduce unrelated terms, reducing precision"
+    }
+  },
+  {
+    "number": 44,
+    "original_number": "xliv",
+    "question": "What is the primary benefit of using statistical query expansion techniques?",
+    "options": {
+      "a": "It improves retrieval performance by considering word relationships in the corpus",
+      "b": "It reduces storage requirements for the index",
+      "c": "It eliminates irrelevant queries",
+      "d": "It automatically removes duplicated documents"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "It improves retrieval performance by considering word relationships in the corpus"
+    }
+  },
+  {
+    "number": 45,
+    "original_number": "xlv",
+    "question": "What is the main goal of probabilistic models in Information Retrieval (IR)?",
+    "options": {
+      "a": "To rank documents based on their probability of relevance",
+      "b": "To retrieve documents based on exact keyword matches",
+      "c": "To cluster documents into predefined categories",
+      "d": "To remove duplicate documents"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "To rank documents based on their probability of relevance"
+    }
+  },
+  {
+    "number": 46,
+    "original_number": "xlvi",
+    "question": "Which of the following is a popular probabilistic ranking function in IR?",
+    "options": {
+      "a": "TF-IDF",
+      "b": "BM25",
+      "c": "Cosine Similarity",
+      "d": "Edit Distance"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "BM25"
+    }
+  },
+  {
+    "number": 47,
+    "original_number": "xlvii",
+    "question": "What does BM25 stand for?",
+    "options": {
+      "a": "Best Match 25",
+      "b": "Bayesian Model 25",
+      "c": "Boolean Matching 25",
+      "d": "Bernoulli Matching 25"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Best Match 25"
+    }
+  },
+  {
+    "number": 48,
+    "original_number": "xlviii",
+    "question": "What is the primary objective of statistical language models in IR?",
+    "options": {
+      "a": "To compute similarity between document vectors",
+      "b": "To estimate the probability of generating a query from a document",
+      "c": "To cluster similar documents",
+      "d": "To rank documents based on their age"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "To estimate the probability of generating a query from a document"
+    }
+  },
+  {
+    "number": 49,
+    "original_number": "xlix",
+    "question": "Which formula is fundamental to the BM25 ranking function?",
+    "options": {
+      "a": "Inverse Document Frequency (IDF)",
+      "b": "Cosine Similarity",
+      "c": "Euclidean Distance",
+      "d": "PageRank Algorithm"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Inverse Document Frequency (IDF)"
+    }
+  },
+  {
+    "number": 50,
+    "original_number": "l",
+    "question": "What is the key advantage of BM25 over traditional TF-IDF?",
+    "options": {
+      "a": "BM25 considers term frequency saturation and document length normalization",
+      "b": "BM25 completely ignores term frequency",
+      "c": "BM25 ranks documents randomly",
+      "d": "BM25 does not require an index"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "BM25 considers term frequency saturation and document length normalization"
+    }
+  },
+  {
+    "number": 51,
+    "original_number": "li",
+    "question": "Which parameter in BM25 controls term frequency saturation?",
+    "options": {
+      "a": "k1",
+      "b": "b",
+      "c": "α",
+      "d": "λ"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "k1"
+    }
+  },
+  {
+    "number": 52,
+    "original_number": "lii",
+    "question": "What does the 'b' parameter in BM25 control?",
+    "options": {
+      "a": "Document length normalization",
+      "b": "Query expansion",
+      "c": "Stopword removal",
+      "d": "Term weighting"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Document length normalization"
+    }
+  },
+  {
+    "number": 53,
+    "original_number": "liii",
+    "question": "Which of the following is a key assumption of probabilistic IR models?",
+    "options": {
+      "a": "The relevance of documents follows a probability distribution",
+      "b": "All terms in a query are equally important",
+      "c": "Documents have fixed lengths",
+      "d": "Queries are case-sensitive"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "The relevance of documents follows a probability distribution"
+    }
+  },
+  {
+    "number": 54,
+    "original_number": "liv",
+    "question": "What is a Statistical Language Model (SLM) in IR?",
+    "options": {
+      "a": "A model that estimates the probability of word sequences",
+      "b": "A clustering technique for documents",
+      "c": "A method for ranking web pages",
+      "d": "A Boolean retrieval model"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "A model that estimates the probability of word sequences"
+    }
+  },
+  {
+    "number": 55,
+    "original_number": "lv",
+    "question": "What is KL-Divergence used for in IR?",
+    "options": {
+      "a": "Measuring the diﬀerence between two probability distributions",
+      "b": "Ranking documents based on cosine similarity",
+      "c": "Identifying duplicate documents",
+      "d": "Compressing large text collections"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Measuring the diﬀerence between two probability distributions"
+    }
+  },
+  {
+    "number": 56,
+    "original_number": "lvi",
+    "question": "Which of the following is NOT a smoothing technique for language models?",
+    "options": {
+      "a": "Laplace smoothing",
+      "b": "Jelinek-Mercer smoothing",
+      "c": "BM25 smoothing",
+      "d": "Dirichlet smoothing"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "BM25 smoothing"
+    }
+  },
+  {
+    "number": 57,
+    "original_number": "lvii",
+    "question": "What problem does smoothing address in language models?",
+    "options": {
+      "a": "Handling zero probabilities for unseen words",
+      "b": "Improving search speed",
+      "c": "Reducing document duplication",
+      "d": "Enhancing query expansion"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Handling zero probabilities for unseen words"
+    }
+  },
+  {
+    "number": 58,
+    "original_number": "lviii",
+    "question": "Which smoothing technique uses a linear interpolation approach?",
+    "options": {
+      "a": "Jelinek-Mercer smoothing",
+      "b": "Dirichlet smoothing",
+      "c": "Laplace smoothing",
+      "d": "Bayes smoothing"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Jelinek-Mercer smoothing"
+    }
+  },
+  {
+    "number": 59,
+    "original_number": "lix",
+    "question": "Which smoothing technique is based on adding a pseudo count to all terms?",
+    "options": {
+      "a": "Laplace smoothing",
+      "b": "Dirichlet smoothing",
+      "c": "BM25 smoothing",
+      "d": "KL-Divergence smoothing"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Laplace smoothing"
+    }
+  },
+  {
+    "number": 60,
+    "original_number": "lx",
+    "question": "Why is document length normalization important in BM25?",
+    "options": {
+      "a": "It prevents longer documents from having an unfair advantage",
+      "b": "It increases retrieval speed",
+      "c": "It removes stopwords from the document",
+      "d": "It expands queries automatically"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "It prevents longer documents from having an unfair advantage"
+    }
+  },
+  {
+    "number": 61,
+    "original_number": "lxi",
+    "question": "What is the primary disadvantage of statistical language models?",
+    "options": {
+      "a": "High computational complexity",
+      "b": "Ineﬃciency in indexing documents",
+      "c": "They do not support probabilistic ranking",
+      "d": "They ignore query expansion"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "High computational complexity"
+    }
+  },
+  {
+    "number": 62,
+    "original_number": "lxii",
+    "question": "Which of the following components is essential for language modeling?",
+    "options": {
+      "a": "Term frequency distribution",
+      "b": "Boolean operators",
+      "c": "Image processing algorithms",
+      "d": "Graph-based clustering"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Term frequency distribution"
+    }
+  },
+  {
+    "number": 63,
+    "original_number": "lxiii",
+    "question": "Which retrieval model is most suitable for short queries with a few keywords?",
+    "options": {
+      "a": "BM25",
+      "b": "Language Modeling",
+      "c": "Boolean Retrieval",
+      "d": "Hierarchical Clustering"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "BM25"
+    }
+  },
+  {
+    "number": 64,
+    "original_number": "lxiv",
+    "question": "Which probability estimation technique is commonly used in language models for IR?",
+    "options": {
+      "a": "Maximum likelihood estimation",
+      "b": "Random forest classifier",
+      "c": "Decision trees",
+      "d": "K-Means clustering"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Maximum likelihood estimation"
+    }
+  },
+  {
+    "number": 65,
+    "original_number": "lxv",
+    "question": "What is text classification?",
+    "options": {
+      "a": "The process of summarizing large documents",
+      "b": "The task of assigning predefined categories to text documents",
+      "c": "The conversion of text into speech",
+      "d": "A method to detect duplicate documents"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "The task of assigning predefined categories to text documents"
+    }
+  },
+  {
+    "number": 66,
+    "original_number": "lxvi",
+    "question": "Which of the following is a supervised learning technique for text classification?",
+    "options": {
+      "a": "K-Means clustering",
+      "b": "Naïve Bayes classifier",
+      "c": "DBSCAN",
+      "d": "PAM algorithm"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Naïve Bayes classifier"
+    }
+  },
+  {
+    "number": 67,
+    "original_number": "lxvii",
+    "question": "Which of the following algorithms is best suited for text classification tasks?",
+    "options": {
+      "a": "K-Means",
+      "b": "DBSCAN",
+      "c": "Naïve Bayes",
+      "d": "PAM"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Naïve Bayes"
+    }
+  },
+  {
+    "number": 68,
+    "original_number": "lxviii",
+    "question": "Which algorithm is based on Bayes' Theorem?",
+    "options": {
+      "a": "Naïve Bayes",
+      "b": "K-Means",
+      "c": "DBSCAN",
+      "d": "EM Algorithm"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Naïve Bayes"
+    }
+  },
+  {
+    "number": 69,
+    "original_number": "lxix",
+    "question": "What assumption does the Naïve Bayes classifier make?",
+    "options": {
+      "a": "All features are dependent",
+      "b": "All features are independent given the class",
+      "c": "The features are correlated",
+      "d": "It does not assume anything about the data"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "All features are independent given the class"
+    }
+  },
+  {
+    "number": 70,
+    "original_number": "lxx",
+    "question": "Which algorithm uses distance-based classification?",
+    "options": {
+      "a": "Naïve Bayes",
+      "b": "k-Nearest Neighbors (k-NN)",
+      "c": "DBSCAN",
+      "d": "PAMK"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "k-Nearest Neighbors (k-NN)"
+    }
+  },
+  {
+    "number": 71,
+    "original_number": "lxxi",
+    "question": "Which of the following is NOT a classification algorithm?",
+    "options": {
+      "a": "Naïve Bayes",
+      "b": "Support Vector Machine (SVM)",
+      "c": "K-Means",
+      "d": "k-Nearest Neighbors (k-NN)"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "K-Means"
+    }
+  },
+  {
+    "number": 72,
+    "original_number": "lxxii",
+    "question": "What is the key advantage of Support Vector Machines (SVM)?",
+    "options": {
+      "a": "Handles large-dimensional data well",
+      "b": "Requires minimal training data",
+      "c": "Works only on small datasets",
+      "d": "Ignores irrelevant features"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Handles large-dimensional data well"
+    }
+  },
+  {
+    "number": 73,
+    "original_number": "lxxiii",
+    "question": "Which machine learning model is best suited for text classification with a large feature set?",
+    "options": {
+      "a": "Decision Trees",
+      "b": "Naïve Bayes",
+      "c": "Support Vector Machines (SVM)",
+      "d": "K-Means"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Support Vector Machines (SVM)"
+    }
+  },
+  {
+    "number": 74,
+    "original_number": "lxxiv",
+    "question": "What is feature selection in text classification?",
+    "options": {
+      "a": "Choosing the best algorithm for classification",
+      "b": "Selecting important words or features for classification",
+      "c": "Reducing dataset size by removing entire documents",
+      "d": "Training a classifier on raw data"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Selecting important words or features for classification"
+    }
+  },
+  {
+    "number": 75,
+    "original_number": "lxxv",
+    "question": "Which of the following is an unsupervised learning algorithm?",
+    "options": {
+      "a": "k-Nearest Neighbors",
+      "b": "Naïve Bayes",
+      "c": "K-Means",
+      "d": "Support Vector Machines"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "K-Means"
+    }
+  },
+  {
+    "number": 76,
+    "original_number": "lxxvi",
+    "question": "What does K represent in the K-Means algorithm?",
+    "options": {
+      "a": "Number of clusters",
+      "b": "Number of features",
+      "c": "Number of training samples",
+      "d": "Number of iterations"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Number of clusters"
+    }
+  },
+  {
+    "number": 77,
+    "original_number": "lxxvii",
+    "question": "Which clustering algorithm can detect arbitrary-shaped clusters?",
+    "options": {
+      "a": "K-Means",
+      "b": "DBSCAN",
+      "c": "Hierarchical clustering",
+      "d": "Naïve Bayes"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "DBSCAN"
+    }
+  },
+  {
+    "number": 78,
+    "original_number": "lxxviii",
+    "question": "Which of the following clustering algorithms is hierarchical?",
+    "options": {
+      "a": "K-Means",
+      "b": "DBSCAN",
+      "c": "Agglomerative Clustering",
+      "d": "SVM"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Agglomerative Clustering"
+    }
+  },
+  {
+    "number": 79,
+    "original_number": "lxxix",
+    "question": "Which clustering method uses density-based clustering?",
+    "options": {
+      "a": "K-Means",
+      "b": "DBSCAN",
+      "c": "PAM",
+      "d": "Naïve Bayes"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "DBSCAN"
+    }
+  },
+  {
+    "number": 80,
+    "original_number": "lxxx",
+    "question": "What is the primary disadvantage of K-Means clustering?",
+    "options": {
+      "a": "Requires prior knowledge of the number of clusters",
+      "b": "Can only classify text data",
+      "c": "Does not work with large datasets",
+      "d": "Always results in overlapping clusters"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Requires prior knowledge of the number of clusters"
+    }
+  },
+  {
+    "number": 81,
+    "original_number": "lxxxi",
+    "question": "Which algorithm is best suited for clustering large text datasets?",
+    "options": {
+      "a": "Naïve Bayes",
+      "b": "SVM",
+      "c": "K-Means",
+      "d": "Decision Trees"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "K-Means"
+    }
+  },
+  {
+    "number": 82,
+    "original_number": "lxxxii",
+    "question": "Which algorithm is NOT a density-based clustering method?",
+    "options": {
+      "a": "DBSCAN",
+      "b": "K-Means",
+      "c": "Mean Shift",
+      "d": "OPTICS"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "K-Means"
+    }
+  },
+  {
+    "number": 83,
+    "original_number": "lxxxiii",
+    "question": "What is the full form of DBSCAN?",
+    "options": {
+      "a": "Density-Based Spatial Clustering of Applications with Noise",
+      "b": "Data-Based Systematic Clustering of Anomalies with Noise",
+      "c": "Document-Based Standard Clustering of Applications with Neural Networks",
+      "d": "Distance-Based Spatial Classification of Applications with Noise"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Density-Based Spatial Clustering of Applications with Noise"
+    }
+  },
+  {
+    "number": 84,
+    "original_number": "lxxxiv",
+    "question": "Which clustering algorithm assigns every data point to the nearest centroid?",
+    "options": {
+      "a": "K-Means",
+      "b": "DBSCAN",
+      "c": "PAM",
+      "d": "EM Algorithm"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "K-Means"
+    }
+  },
+  {
+    "number": 85,
+    "original_number": "lxxxv",
+    "question": "Which clustering algorithm builds a hierarchy of clusters?",
+    "options": {
+      "a": "Hierarchical Clustering",
+      "b": "K-Means",
+      "c": "DBSCAN",
+      "d": "Naïve Bayes"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Hierarchical Clustering"
+    }
+  },
+  {
+    "number": 86,
+    "original_number": "lxxxvi",
+    "question": "What is the Expectation-Maximization (EM) algorithm primarily used for?",
+    "options": {
+      "a": "Probabilistic clustering",
+      "b": "Supervised classification",
+      "c": "Feature selection",
+      "d": "Sentence segmentation"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Probabilistic clustering"
+    }
+  },
+  {
+    "number": 87,
+    "original_number": "lxxxvii",
+    "question": "Which clustering algorithm is best suited for non-linearly separable data?",
+    "options": {
+      "a": "DBSCAN",
+      "b": "K-Means",
+      "c": "Decision Trees",
+      "d": "Naïve Bayes"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "DBSCAN"
+    }
+  },
+  {
+    "number": 88,
+    "original_number": "lxxxviii",
+    "question": "Which clustering algorithm does NOT require specifying the number of clusters?",
+    "options": {
+      "a": "DBSCAN",
+      "b": "K-Means",
+      "c": "PAM",
+      "d": "Naïve Bayes"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "DBSCAN"
+    }
+  },
+  {
+    "number": 89,
+    "original_number": "lxxxix",
+    "question": "Which distance metric is commonly used in K-Means clustering?",
+    "options": {
+      "a": "Euclidean distance",
+      "b": "Cosine similarity",
+      "c": "Manhattan distance",
+      "d": "Jaccard similarity"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Euclidean distance"
+    }
+  },
+  {
+    "number": 90,
+    "original_number": "xc",
+    "question": "What is the primary purpose of a web search engine?",
+    "options": {
+      "a": "To browse social media",
+      "b": "To find information from indexed web pages",
+      "c": "To send emails",
+      "d": "To store private documents"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "To find information from indexed web pages"
+    }
+  },
+  {
+    "number": 91,
+    "original_number": "xci",
+    "question": "What is web crawling?",
+    "options": {
+      "a": "A process of summarizing web pages",
+      "b": "The automated process of browsing and indexing web pages",
+      "c": "A manual technique to search the web",
+      "d": "A process of ranking web pages"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "The automated process of browsing and indexing web pages"
+    }
+  },
+  {
+    "number": 92,
+    "original_number": "xcii",
+    "question": "Which program is responsible for web crawling?",
+    "options": {
+      "a": "Indexer",
+      "b": "Web spider",
+      "c": "Web browser",
+      "d": "Query processor"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Web spider"
+    }
+  },
+  {
+    "number": 93,
+    "original_number": "xciii",
+    "question": "What is the main function of an index in web search?",
+    "options": {
+      "a": "To store the entire web",
+      "b": "To optimize query processing speed",
+      "c": "To display web pages",
+      "d": "To rank web pages"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "To optimize query processing speed"
+    }
+  },
+  {
+    "number": 94,
+    "original_number": "xciv",
+    "question": "Which of the following is NOT a web search component?",
+    "options": {
+      "a": "Crawler",
+      "b": "Query processor",
+      "c": "Database management system",
+      "d": "Indexer"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Database management system"
+    }
+  },
+  {
+    "number": 95,
+    "original_number": "xcv",
+    "question": "What is a web graph?",
+    "options": {
+      "a": "A network of interconnected web pages",
+      "b": "A collection of social media profiles",
+      "c": "A tool for website design",
+      "d": "A ranking algorithm"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "A network of interconnected web pages"
+    }
+  },
+  {
+    "number": 96,
+    "original_number": "xcvi",
+    "question": "Which algorithm is widely used for web page ranking?",
+    "options": {
+      "a": "K-Means",
+      "b": "PageRank",
+      "c": "Naïve Bayes",
+      "d": "Decision Trees"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "PageRank"
+    }
+  },
+  {
+    "number": 97,
+    "original_number": "xcvii",
+    "question": "Who developed the PageRank algorithm?",
+    "options": {
+      "a": "Bill Gates",
+      "b": "Mark Zuckerberg",
+      "c": "Larry Page and Sergey Brin",
+      "d": "Tim Berners-Lee"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Larry Page and Sergey Brin"
+    }
+  },
+  {
+    "number": 98,
+    "original_number": "xcviii",
+    "question": "What does PageRank primarily measure?",
+    "options": {
+      "a": "The age of a webpage",
+      "b": "The number and quality of links to a webpage",
+      "c": "The number of words on a page",
+      "d": "The loading speed of a webpage"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "The number and quality of links to a webpage"
+    }
+  },
+  {
+    "number": 99,
+    "original_number": "xcix",
+    "question": "Which algorithm is used to find authoritative pages?",
+    "options": {
+      "a": "HITS (Hyperlink-Induced Topic Search)",
+      "b": "K-Means",
+      "c": "DBSCAN",
+      "d": "Naïve Bayes"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "HITS (Hyperlink-Induced Topic Search)"
+    }
+  },
+  {
+    "number": 100,
+    "original_number": "c",
+    "question": "In the HITS algorithm, what are the two types of pages identified?",
+    "options": {
+      "a": "Static and Dynamic",
+      "b": "Hubs and Authorities",
+      "c": "Root and Leaf",
+      "d": "Query and Index"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Hubs and Authorities"
+    }
+  },
+  {
+    "number": 101,
+    "original_number": "ci",
+    "question": "What is an inverted index in web search?",
+    "options": {
+      "a": "A data structure mapping terms to document locations",
+      "b": "A technique for encrypting web pages",
+      "c": "A user-generated search index",
+      "d": "A process for deleting old web pages"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "A data structure mapping terms to document locations"
+    }
+  },
+  {
+    "number": 102,
+    "original_number": "cii",
+    "question": "Which data structure is commonly used in search engine indexes?",
+    "options": {
+      "a": "Hash Table",
+      "b": "Linked List",
+      "c": "Inverted Index",
+      "d": "Binary Tree"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Inverted Index"
+    }
+  },
+  {
+    "number": 103,
+    "original_number": "ciii",
+    "question": "What is the main goal of link analysis in web search?",
+    "options": {
+      "a": "To measure web page speed",
+      "b": "To evaluate the structure and relevance of hyperlinks",
+      "c": "To count the number of links in a document",
+      "d": "To detect malware on web pages"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "To evaluate the structure and relevance of hyperlinks"
+    }
+  },
+  {
+    "number": 104,
+    "original_number": "civ",
+    "question": "Which of the following is NOT a factor in link-based ranking algorithms?",
+    "options": {
+      "a": "Number of backlinks",
+      "b": "Quality of linking pages",
+      "c": "Word frequency in a document",
+      "d": "Anchor text relevance"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Word frequency in a document"
+    }
+  },
+  {
+    "number": 105,
+    "original_number": "cv",
+    "question": "Which type of search retrieves results based on user intent?",
+    "options": {
+      "a": "Boolean search",
+      "b": "Semantic search",
+      "c": "Keyword-based search",
+      "d": "Categorical search"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Semantic search"
+    }
+  },
+  {
+    "number": 106,
+    "original_number": "cvi",
+    "question": "What is a major challenge in web crawling?",
+    "options": {
+      "a": "Managing large-scale data",
+      "b": "Finding unique URLs",
+      "c": "Storing images",
+      "d": "Sending emails"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Managing large-scale data"
+    }
+  },
+  {
+    "number": 107,
+    "original_number": "cvii",
+    "question": "What does \"deep web\" refer to?",
+    "options": {
+      "a": "The part of the web indexed by search engines",
+      "b": "Hidden web pages not indexed by search engines",
+      "c": "Websites with high security",
+      "d": "Web pages with multimedia content"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Hidden web pages not indexed by search engines"
+    }
+  },
+  {
+    "number": 108,
+    "original_number": "cviii",
+    "question": "Which of the following is NOT an indexing technique?",
+    "options": {
+      "a": "Forward indexing",
+      "b": "Inverted indexing",
+      "c": "Backward indexing",
+      "d": "Cluster indexing"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Backward indexing"
+    }
+  },
+  {
+    "number": 109,
+    "original_number": "cix",
+    "question": "What is anchor text?",
+    "options": {
+      "a": "The visible, clickable text in a hyperlink",
+      "b": "The title of a web page",
+      "c": "The background image of a website",
+      "d": "A type of metadata"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "The visible, clickable text in a hyperlink"
+    }
+  },
+  {
+    "number": 110,
+    "original_number": "cx",
+    "question": "What is the primary purpose of web crawling?",
+    "options": {
+      "a": "To improve website performance",
+      "b": "To collect and index web pages",
+      "c": "To filter out spam emails",
+      "d": "To display advertisements"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "To collect and index web pages"
+    }
+  },
+  {
+    "number": 111,
+    "original_number": "cxi",
+    "question": "What is a 'spider trap' in web crawling?",
+    "options": {
+      "a": "A method to block search engine bots",
+      "b": "A loop of dynamically generated links that traps crawlers",
+      "c": "A security feature in browsers",
+      "d": "A tool to remove duplicate content"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "A loop of dynamically generated links that traps crawlers"
+    }
+  },
+  {
+    "number": 112,
+    "original_number": "cxii",
+    "question": "Which of the following improves web search relevance?",
+    "options": {
+      "a": "Link analysis",
+      "b": "HTML structure",
+      "c": "Web design",
+      "d": "Image resolution"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Link analysis"
+    }
+  },
+  {
+    "number": 113,
+    "original_number": "cxiii",
+    "question": "What is the 'Freshness' problem in web crawling?",
+    "options": {
+      "a": "Ensuring web pages are updated frequently",
+      "b": "Removing duplicate pages",
+      "c": "Ranking spam websites",
+      "d": "Detecting malware on web pages"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Ensuring web pages are updated frequently"
+    }
+  },
+  {
+    "number": 114,
+    "original_number": "cxiv",
+    "question": "Which factor influences search engine ranking the most?",
+    "options": {
+      "a": "HTML page color",
+      "b": "Number of images on a webpage",
+      "c": "Backlink quality",
+      "d": "Browser history"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Backlink quality"
+    }
+  },
+  {
+    "number": 115,
+    "original_number": "cxv",
+    "question": "What is Information Extraction (IE) in IR?",
+    "options": {
+      "a": "Extracting structured data from unstructured text",
+      "b": "Removing duplicate words from a document",
+      "c": "Encrypting information for security",
+      "d": "Formatting text documents"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Extracting structured data from unstructured text"
+    }
+  },
+  {
+    "number": 116,
+    "original_number": "cxvi",
+    "question": "Which of the following is a major application of IR?",
+    "options": {
+      "a": "Information retrieval",
+      "b": "Web crawling",
+      "c": "Machine translation",
+      "d": "All of the these"
+    },
+    "correct_answer": {
+      "option": "d",
+      "text": "All of the these"
+    }
+  },
+  {
+    "number": 117,
+    "original_number": "cxvii",
+    "question": "Which of the following techniques is widely used in question-answering systems?",
+    "options": {
+      "a": "Named Entity Recognition (NER)",
+      "b": "PageRank",
+      "c": "Index compression",
+      "d": "URL filtering"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Named Entity Recognition (NER)"
+    }
+  },
+  {
+    "number": 118,
+    "original_number": "cxviii",
+    "question": "What does Named Entity Recognition (NER) identify in a document?",
+    "options": {
+      "a": "Sentence structure",
+      "b": "Proper nouns like names, places, and organizations",
+      "c": "Webpage ranking",
+      "d": "Sentiment polarity"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Proper nouns like names, places, and organizations"
+    }
+  },
+  {
+    "number": 119,
+    "original_number": "cxix",
+    "question": "Which technique is used in opinion summarization?",
+    "options": {
+      "a": "Sentiment analysis",
+      "b": "PageRank algorithm",
+      "c": "Boolean retrieval",
+      "d": "Image processing"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Sentiment analysis"
+    }
+  },
+  {
+    "number": 120,
+    "original_number": "cxx",
+    "question": "What is the primary goal of a question-answering (QA) system?",
+    "options": {
+      "a": "Generate summaries of documents",
+      "b": "Extract information from images",
+      "c": "Provide precise answers to user queries",
+      "d": "Rank web pages"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Provide precise answers to user queries"
+    }
+  },
+  {
+    "number": 121,
+    "original_number": "cxxi",
+    "question": "Which of the following is NOT an information extraction technique?",
+    "options": {
+      "a": "Part-of-speech tagging",
+      "b": "Named Entity Recognition",
+      "c": "Query expansion",
+      "d": "Relation extraction"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Query expansion"
+    }
+  },
+  {
+    "number": 122,
+    "original_number": "cxxii",
+    "question": "Which of the following is an example of an opinion summarization tool?",
+    "options": {
+      "a": "TextRank",
+      "b": "Sentiment analysis models",
+      "c": "Web crawler",
+      "d": "PageRank"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Sentiment analysis models"
+    }
+  },
+  {
+    "number": 123,
+    "original_number": "cxxiii",
+    "question": "Which of these is a key challenge in opinion summarization?",
+    "options": {
+      "a": "Understanding sarcasm and irony",
+      "b": "Storing data eﬃciently",
+      "c": "Compressing indexes",
+      "d": "Optimizing PageRank"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Understanding sarcasm and irony"
+    }
+  },
+  {
+    "number": 124,
+    "original_number": "cxxiv",
+    "question": "What is a key diﬀerence between structured and unstructured data?",
+    "options": {
+      "a": "Structured data is organized in a predefined manner",
+      "b": "Unstructured data cannot be stored in a database",
+      "c": "Structured data cannot be retrieved using IR systems",
+      "d": "Unstructured data is always numerical"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Structured data is organized in a predefined manner"
+    }
+  },
+  {
+    "number": 125,
+    "original_number": "cxxv",
+    "question": "Which social network feature is commonly analyzed in IR applications?",
+    "options": {
+      "a": "Hashtags and trends",
+      "b": "Webpage ranking",
+      "c": "URL redirection",
+      "d": "Image pixel count"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Hashtags and trends"
+    }
+  },
+  {
+    "number": 126,
+    "original_number": "cxxvi",
+    "question": "Which of the following is a key feature of a question-answering system?",
+    "options": {
+      "a": "Understanding natural language queries",
+      "b": "Crawling the entire web",
+      "c": "Filtering web advertisements",
+      "d": "Displaying social media posts"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Understanding natural language queries"
+    }
+  },
+  {
+    "number": 127,
+    "original_number": "cxxvii",
+    "question": "What is sentiment analysis primarily used for?",
+    "options": {
+      "a": "Understanding customer opinions in text",
+      "b": "Extracting numbers from text",
+      "c": "Summarizing a document's main points",
+      "d": "Compressing large datasets"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Understanding customer opinions in text"
+    }
+  },
+  {
+    "number": 128,
+    "original_number": "cxxviii",
+    "question": "Which technique is commonly used for summarizing user reviews?",
+    "options": {
+      "a": "Opinion mining",
+      "b": "Term frequency counting",
+      "c": "Index merging",
+      "d": "Boolean retrieval"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Opinion mining"
+    }
+  },
+  {
+    "number": 129,
+    "original_number": "cxxix",
+    "question": "Which application uses natural language processing to extract relevant facts?",
+    "options": {
+      "a": "Information Extraction",
+      "b": "Image Recognition",
+      "c": "Web Caching",
+      "d": "Video Processing"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Information Extraction"
+    }
+  },
+  {
+    "number": 130,
+    "original_number": "cxxx",
+    "question": "Which of the following is a challenge in social media analysis?",
+    "options": {
+      "a": "Understanding slang and informal language",
+      "b": "Ranking web pages",
+      "c": "Indexing multimedia content",
+      "d": "Web crawling eﬃciency"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Understanding slang and informal language"
+    }
+  },
+  {
+    "number": 131,
+    "original_number": "cxxxi",
+    "question": "Which algorithm is useful in summarizing opinions?",
+    "options": {
+      "a": "LexRank",
+      "b": "HITS algorithm",
+      "c": "K-means clustering",
+      "d": "Forward Indexing"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "LexRank"
+    }
+  },
+  {
+    "number": 132,
+    "original_number": "cxxxii",
+    "question": "Which of the following is NOT a key component of information extraction?",
+    "options": {
+      "a": "Named Entity Recognition",
+      "b": "Relation Extraction",
+      "c": "Opinion Mining",
+      "d": "PageRank"
+    },
+    "correct_answer": {
+      "option": "d",
+      "text": "PageRank"
+    }
+  },
+  {
+    "number": 133,
+    "original_number": "cxxxiii",
+    "question": "Which social network metric is commonly analyzed for IR applications?",
+    "options": {
+      "a": "User engagement",
+      "b": "Webpage titles",
+      "c": "Query expansion",
+      "d": "Image compression"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "User engagement"
+    }
+  },
+  {
+    "number": 134,
+    "original_number": "cxxxiv",
+    "question": "Which of the following is a key function of information retrieval in social networks?",
+    "options": {
+      "a": "Identifying influential users",
+      "b": "Ranking static web pages",
+      "c": "Measuring webpage loading speed",
+      "d": "Data encryption"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Identifying influential users"
+    }
+  },
+  {
+    "number": 135,
+    "original_number": "cxxxv",
+    "question": "What is one challenge of question-answering systems?",
+    "options": {
+      "a": "Understanding ambiguous queries",
+      "b": "Indexing web pages",
+      "c": "Improving image resolution",
+      "d": "Detecting duplicate URLs"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Understanding ambiguous queries"
+    }
+  },
+  {
+    "number": 136,
+    "original_number": "cxxxvi",
+    "question": "Which of the following best defines question answering in IR?",
+    "options": {
+      "a": "Retrieving relevant documents",
+      "b": "Providing precise answers to user queries",
+      "c": "Summarizing lengthy documents",
+      "d": "Ranking search results"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Providing precise answers to user queries"
+    }
+  },
+  {
+    "number": 137,
+    "original_number": "cxxxvii",
+    "question": "What role do social networks play in IR applications?",
+    "options": {
+      "a": "They help analyze user interactions and trends",
+      "b": "They store structured databases",
+      "c": "They control web crawling",
+      "d": "They generate encryption keys"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "They help analyze user interactions and trends"
+    }
+  },
+  {
+    "number": 138,
+    "original_number": "cxxxviii",
+    "question": "Which of the following methods is widely used for question answering?",
+    "options": {
+      "a": "Neural networks",
+      "b": "PageRank",
+      "c": "Inverted indexing",
+      "d": "Boolean retrieval"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Neural networks"
+    }
+  },
+  {
+    "number": 139,
+    "original_number": "cxxxix",
+    "question": "Which factor is critical in opinion mining?",
+    "options": {
+      "a": "Sentiment polarity",
+      "b": "Query speed",
+      "c": "Page load time",
+      "d": "Compression ratio"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Sentiment polarity"
+    }
+  },
+  {
+    "number": 140,
+    "original_number": "cxl",
+    "question": "Which tool is commonly used for sentiment analysis?",
+    "options": {
+      "a": "VADER (Valence Aware Dictionary and sEntiment Reasoner)",
+      "b": "HITS algorithm",
+      "c": "BM25 ranking",
+      "d": "Web crawler"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "VADER (Valence Aware Dictionary and sEntiment Reasoner)"
+    }
+  },
+  {
+    "number": 141,
+    "original_number": "cxli",
+    "question": "Which IR method is useful in classifying social media text?",
+    "options": {
+      "a": "Machine learning models",
+      "b": "PageRank",
+      "c": "Web crawling",
+      "d": "URL filtering"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Machine learning models"
+    }
+  },
+  {
+    "number": 142,
+    "original_number": "cxlii",
+    "question": "What is relation extraction in information extraction?",
+    "options": {
+      "a": "Identifying relationships between entities",
+      "b": "Extracting numbers from documents",
+      "c": "Sorting URLs",
+      "d": "Measuring search speed"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Identifying relationships between entities"
+    }
+  },
+  {
+    "number": 143,
+    "original_number": "cxliii",
+    "question": "Which IR application is commonly used for customer feedback analysis?",
+    "options": {
+      "a": "Sentiment analysis",
+      "b": "Inverted indexing",
+      "c": "Boolean retrieval",
+      "d": "Caching"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Sentiment analysis"
+    }
+  },
+  {
+    "number": 144,
+    "original_number": "cxliv",
+    "question": "What does information extraction focus on?",
+    "options": {
+      "a": "Extracting structured knowledge from text",
+      "b": "Enhancing web page ranking",
+      "c": "Improving website designs",
+      "d": "Storing encrypted data"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Extracting structured knowledge from text"
+    }
+  },
+  {
+    "number": 145,
+    "original_number": "cxlv",
+    "question": "What is the primary purpose of the Vector Space Model (VSM)?",
+    "options": {
+      "a": "Compressing search indexes",
+      "b": "Representing documents as vectors in a multi-dimensional space",
+      "c": "Detecting duplicate documents",
+      "d": "Sorting documents alphabetically"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Representing documents as vectors in a multi-dimensional space"
+    }
+  },
+  {
+    "number": 146,
+    "original_number": "cxlvi",
+    "question": "Which factor does the TF-IDF weighting scheme consider?",
+    "options": {
+      "a": "Frequency of terms in a document and their rarity in the collection",
+      "b": "The total number of documents in the corpus",
+      "c": "The length of a document",
+      "d": "The order of terms in a document"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Frequency of terms in a document and their rarity in the collection"
+    }
+  },
+  {
+    "number": 147,
+    "original_number": "cxlvii",
+    "question": "In the Vector Space Model, how is document similarity typically measured?",
+    "options": {
+      "a": "Cosine similarity",
+      "b": "Euclidean distance",
+      "c": "Manhattan distance",
+      "d": "Jaccard coeﬃcient"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Cosine similarity"
+    }
+  },
+  {
+    "number": 148,
+    "original_number": "cxlviii",
+    "question": "What does \"IDF\" stand for in TF-IDF?",
+    "options": {
+      "a": "Inverse Document Frequency",
+      "b": "Information Density Factor",
+      "c": "Indexed Data Frequency",
+      "d": "Inverted Data Function"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Inverse Document Frequency"
+    }
+  },
+  {
+    "number": 149,
+    "original_number": "cxlix",
+    "question": "What is the main advantage of the TF-IDF model?",
+    "options": {
+      "a": "It gives more importance to rare terms",
+      "b": "It ignores common words completely",
+      "c": "It eliminates the need for indexing",
+      "d": "It ranks documents based only on term count"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "It gives more importance to rare terms"
+    }
+  },
+  {
+    "number": 150,
+    "original_number": "cl",
+    "question": "What is a key limitation of Boolean retrieval models?",
+    "options": {
+      "a": "It does not rank documents based on relevance",
+      "b": "It requires high computational power",
+      "c": "It works only with small datasets",
+      "d": "It does not support full-text search"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "It does not rank documents based on relevance"
+    }
+  },
+  {
+    "number": 151,
+    "original_number": "cli",
+    "question": "In TF-IDF, a high IDF score indicates that a term is",
+    "options": {
+      "a": "Rare in the document collection",
+      "b": "Frequently occurring in the document collection",
+      "c": "Equally distributed across all documents",
+      "d": "Not useful for ranking"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Rare in the document collection"
+    }
+  },
+  {
+    "number": 152,
+    "original_number": "clii",
+    "question": "Which retrieval model ranks documents based on term frequency?",
+    "options": {
+      "a": "Vector Space Model",
+      "b": "Boolean Model",
+      "c": "Probabilistic Model",
+      "d": "Link Analysis Model"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Vector Space Model"
+    }
+  },
+  {
+    "number": 153,
+    "original_number": "cliii",
+    "question": "Which metric is used to evaluate the performance of an IR system?",
+    "options": {
+      "a": "Precision and Recall",
+      "b": "Term Frequency",
+      "c": "Cosine Similarity",
+      "d": "Page Load Time"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Precision and Recall"
+    }
+  },
+  {
+    "number": 154,
+    "original_number": "cliv",
+    "question": "What does Precision measure in Information Retrieval?",
+    "options": {
+      "a": "The percentage of retrieved documents that are relevant",
+      "b": "The total number of documents in a corpus",
+      "c": "The speed of query execution",
+      "d": "The size of an index file"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "The percentage of retrieved documents that are relevant"
+    }
+  },
+  {
+    "number": 155,
+    "original_number": "clv",
+    "question": "What does Recall measure in IR evaluation?",
+    "options": {
+      "a": "The fraction of relevant documents retrieved",
+      "b": "The number of irrelevant documents retrieved",
+      "c": "The total search time",
+      "d": "The number of indexed words"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "The fraction of relevant documents retrieved"
+    }
+  },
+  {
+    "number": 156,
+    "original_number": "clvi",
+    "question": "What is F-measure used for in IR evaluation?",
+    "options": {
+      "a": "Balancing precision and recall",
+      "b": "Measuring index eﬃciency",
+      "c": "Calculating document size",
+      "d": "Improving search speed"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Balancing precision and recall"
+    }
+  },
+  {
+    "number": 157,
+    "original_number": "clvii",
+    "question": "Which function does cosine similarity perform in VSM?",
+    "options": {
+      "a": "Measures the angle between two document vectors",
+      "b": "Computes the frequency of a term",
+      "c": "Compresses document indexes",
+      "d": "Filters out common words"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Measures the angle between two document vectors"
+    }
+  },
+  {
+    "number": 158,
+    "original_number": "clviii",
+    "question": "Which IR evaluation metric calculates the rank of the first relevant document?",
+    "options": {
+      "a": "Mean Reciprocal Rank (MRR)",
+      "b": "Term Frequency (TF)",
+      "c": "Cosine Similarity",
+      "d": "Index Compression Ratio"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Mean Reciprocal Rank (MRR)"
+    }
+  },
+  {
+    "number": 159,
+    "original_number": "clix",
+    "question": "What is the primary characteristic of the Boolean retrieval model?",
+    "options": {
+      "a": "It provides exact matches using AND, OR, and NOT operators",
+      "b": "It assigns probabilities to documents",
+      "c": "It ranks documents by relevance",
+      "d": "It uses deep learning for indexing"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "It provides exact matches using AND, OR, and NOT operators"
+    }
+  },
+  {
+    "number": 160,
+    "original_number": "clx",
+    "question": "Which IR model is commonly used in modern search engines?",
+    "options": {
+      "a": "Vector Space Model",
+      "b": "Boolean Model",
+      "c": "Probabilistic Model",
+      "d": "Link Analysis Model"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Vector Space Model"
+    }
+  },
+  {
+    "number": 161,
+    "original_number": "clxi",
+    "question": "Which model should you develop to classify news articles into predefined categories?",
+    "options": {
+      "a": "k-Means",
+      "b": "Naïve Bayes",
+      "c": "DBSCAN",
+      "d": "PAM"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Naïve Bayes"
+    }
+  },
+  {
+    "number": 162,
+    "original_number": "clxii",
+    "question": "Plan a feature extraction strategy for a text classification model. Which method would be most eﬀective?",
+    "options": {
+      "a": "Using only stopwords",
+      "b": "Applying TF-IDF to extract important words",
+      "c": "Using raw text without preprocessing",
+      "d": "Removing all words except nouns"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Applying TF-IDF to extract important words"
+    }
+  },
+  {
+    "number": 163,
+    "original_number": "clxiii",
+    "question": "How would you utilize k-NN for text classification?",
+    "options": {
+      "a": "Use it for classification by finding the k nearest neighbors",
+      "b": "Apply it for text clustering",
+      "c": "Use it to generate word embeddings",
+      "d": "None of the above"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Use it for classification by finding the k nearest neighbors"
+    }
+  },
+  {
+    "number": 164,
+    "original_number": "clxiv",
+    "question": "Select the best approach to handle high-dimensional text data in classification.",
+    "options": {
+      "a": "Increase the number of features",
+      "b": "Use Principal Component Analysis (PCA) to reduce dimensions",
+      "c": "Add more data without changing features",
+      "d": "Increase the number of hidden layers in a neural network"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Use Principal Component Analysis (PCA) to reduce dimensions"
+    }
+  },
+  {
+    "number": 165,
+    "original_number": "clxv",
+    "question": "Solve the problem of overfitting in text classification models. What strategy should you apply?",
+    "options": {
+      "a": "Remove stopwords",
+      "b": "Use L1/L2 regularization and feature selection",
+      "c": "Increase training data",
+      "d": "Only apply k-Means clustering"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "Use L1/L2 regularization and feature selection"
+    }
+  },
+  {
+    "number": 166,
+    "original_number": "clxvi",
+    "question": "Model a text clustering system that can find overlapping clusters. Which algorithm should be chosen?",
+    "options": {
+      "a": "K-Means",
+      "b": "DBSCAN",
+      "c": "Fuzzy C-Means",
+      "d": "Hierarchical Clustering"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Fuzzy C-Means"
+    }
+  },
+  {
+    "number": 167,
+    "original_number": "clxvii",
+    "question": "How does Naïve Bayes classification compare with k-NN in terms of computational eﬃciency?",
+    "options": {
+      "a": "Naïve Bayes is more computationally expensive than k-NN",
+      "b": "k-NN is faster as it requires model training",
+      "c": "Naïve Bayes is faster as it computes probabilities instead of distances",
+      "d": "Both have the same computational complexity"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "Naïve Bayes is faster as it computes probabilities instead of distances"
+    }
+  },
+  {
+    "number": 168,
+    "original_number": "clxviii",
+    "question": "Contrast supervised and unsupervised learning in the context of text classification.",
+    "options": {
+      "a": "Supervised learning requires labeled data, while unsupervised does not",
+      "b": "Unsupervised learning always gives better accuracy",
+      "c": "Both require labeled data for training",
+      "d": "There is no significant diﬀerence between them"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Supervised learning requires labeled data, while unsupervised does not"
+    }
+  },
+  {
+    "number": 169,
+    "original_number": "clxix",
+    "question": "Show how the curse of dimensionality aﬀects k-NN performance in text classification.",
+    "options": {
+      "a": "More dimensions improve k-NN's accuracy",
+      "b": "k-NN works best with high-dimensional data",
+      "c": "High-dimensional data causes increased computation and reduced accuracy",
+      "d": "The curse of dimensionality does not impact k-NN"
+    },
+    "correct_answer": {
+      "option": "c",
+      "text": "High-dimensional data causes increased computation and reduced accuracy"
+    }
+  },
+  {
+    "number": 170,
+    "original_number": "clxx",
+    "question": "Relate the concept of smoothing in Naïve Bayes to handling unseen words in text classification.",
+    "options": {
+      "a": "Smoothing prevents overfitting",
+      "b": "It assigns a small probability to unseen words, avoiding zero probability errors",
+      "c": "Smoothing is used only for stopword removal",
+      "d": "It eliminates rare words from the vocabulary"
+    },
+    "correct_answer": {
+      "option": "b",
+      "text": "It assigns a small probability to unseen words, avoiding zero probability errors"
+    }
+  },
+  {
+    "number": 171,
+    "original_number": "clxxi",
+    "question": "Compare the use of Euclidean distance and cosine similarity in text clustering.",
+    "options": {
+      "a": "Cosine similarity is preferred when dealing with sparse text data",
+      "b": "Euclidean distance works better for high-dimensional text",
+      "c": "Both methods give identical clustering results",
+      "d": "Euclidean distance is better for handling text documents"
+    },
+    "correct_answer": {
+      "option": "a",
+      "text": "Cosine similarity is preferred when dealing with sparse text data"
+    }
+  }
+]

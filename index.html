@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IEIR MCQ Quiz</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Sans+3:wght@300;400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app-header">
+        <div class="brand">
+          <div class="brand-mark">IR</div>
+          <div class="brand-text">
+            <div class="brand-title">IEIR MCQ Quiz</div>
+            <div class="brand-subtitle">Information Extraction & Retrieval</div>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button class="btn ghost" id="menuButton" aria-label="Open question menu">
+            Menu
+          </button>
+          <button class="btn ghost" id="resetButton" aria-label="Reset progress">
+            Reset
+          </button>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="card question-card" aria-live="polite">
+          <div class="question-meta">
+            <span id="questionCounter">Question 1 of 30</span>
+            <button class="btn icon" id="starButton" aria-label="Star question">
+              <span id="starIcon">☆</span>
+              <span class="sr-only">Star</span>
+            </button>
+          </div>
+          <h1 id="questionText" class="question-text">Loading question...</h1>
+
+          <div id="optionsContainer" class="options"></div>
+
+          <div class="nav-actions">
+            <button class="btn secondary" id="prevButton">Previous</button>
+            <button class="btn primary" id="nextButton">Next</button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="drawer" id="menuDrawer" aria-hidden="true">
+      <div class="drawer-overlay" id="drawerOverlay"></div>
+      <div class="drawer-panel" role="dialog" aria-modal="true" aria-label="Question menu">
+        <div class="drawer-header">
+          <h2>Question Menu</h2>
+          <button class="btn ghost" id="closeMenu">Close</button>
+        </div>
+        <div class="legend">
+          <span class="legend-item"><span class="swatch correct"></span>Correct on 1st try</span>
+          <span class="legend-item"><span class="swatch wrong"></span>Needs another try</span>
+          <span class="legend-item"><span class="swatch starred"></span>Starred</span>
+        </div>
+        <div id="questionGrid" class="question-grid"></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
